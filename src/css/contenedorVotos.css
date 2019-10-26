@@ -1,0 +1,81 @@
+.contenedorVotos {
+    margin: 10px 10px 0 10px;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    background: #f5f4f4;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 70px;
+}
+.contenedorVotosNB {
+    margin: 10px 10px 0 10px;
+    border: 1px solid #b3b3b3;
+    border-radius: 4px;
+    background: #f5f4f4;
+    padding: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nombre {
+    font-size: 1.2em;
+    margin: 0px;
+    text-align: left;
+    margin-left: 5px;
+}
+.nombreVB{
+    font-size: 1.3em;
+    margin: 0px;
+    text-align: left;
+    font-weight: 700;
+}
+.imgCandidatos {
+    width: auto;
+    height: 100%;
+}
+
+.partidosInput {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.contenedorPartidos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 4px;
+}
+
+.contenedorImagenes {
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+}
+
+.imgpartido {
+    height: 40px;
+    width: auto;
+}
+
+.inputVotos {
+    width: 80px;
+    letter-spacing: 3px;
+    font-size: 1.4em;
+    text-align: center;
+}
+.select{
+    width: 100%;
+    padding: 5px;
+    border-radius: 4px;
+}
+.subirImagen{
+    background: #3EA744;
+    width: 95%;
+    margin: 20px 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 4px;
+    color: white;
+}
