@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.cuerpo {
+  width: 100vw; 
+  height: 100vh;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 120px 1fr;
+  grid-template-areas: "encabezado" "contenido";
+}
+
+/* encabezado */
+
+.encabezado {
+  grid-area: encabezado;
+  background: #E62231;
+  background-image: url("../imagenes/encabezado.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-bottom: 5px solid #434443;
+}
+
+.imgEncabezado {
+  height: 80%;
+  width: auto;
+}
+
+/* Cuerpo */
+
+.contenido {
+  grid-area: contenido;
+}
+
+/* Pie de pagina */
+
+.footer {
+  height: 60px;
+  background: #E62231;
+  background-image: url("../imagenes/piePagina.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  border-top: 5px solid #434443;
+  position: sticky;
+}
+
+.cuerpoContenedor {
+  margin: 0 15px;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+}
+
+/* Titulos */
+
+.input-group-text {
+  font-size: 1.5em;
+}
+
+label {
+  font-weight: 700;
+}
+
+.titulo {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
+
+.subtitulo {
+  font-size: 1.0em;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.texto-indicacion {
+  font-size: 0.8em;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  padding:5px;
+  white-space: pre-wrap;
+}
+
+
